@@ -1,0 +1,9 @@
+.title-card {
+    height: 164px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid rgba(78, 85, 95, 1);
+}

@@ -1,0 +1,53 @@
+@import url(../vindor/normalize.css);
+/*__________________________________________________________*/
+@import url(../vendor/fonts.css);
+/*__________________________________________________________*/
+@import url(../blocks/body/body.css);
+/*__________________________________________________________*/
+@import url(../blocks/header-bckg/header-bckg.css);
+/*__________________________________________________________*/
+@import url(../blocks/overlay/overlay.css);
+/*__________________________________________________________*/
+@import url(../blocks/header/header.css);
+/*__________________________________________________________*/
+@import url(../blocks/title-image/title-image.css);
+/*__________________________________________________________*/
+@import url(../blocks/title-card/title-card.css);
+/*__________________________________________________________*/
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__links/navigation__links.css);
+/*__________________________________________________________*/
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__about-us/section__about-us.css);
+@import url(../blocks/section/__services/section__services.css);
+@import url(../blocks/section/__bckg/section__bckg.css);
+/*__________________________________________________________*/
+@import url(../blocks/image/image.css);
+@import url(../blocks/image/__about-us/image__about-us.css);
+/*__________________________________________________________*/
+@import url(../blocks/description/description.css);
+/*__________________________________________________________*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__menu-item/footer__menu-item.css);
+/*__________________________________________________________*/
+@import url(../blocks/link/link.css);
+/*__________________________________________________________*/
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__item/contacts__item.css);
+/*__________________________________________________________*/
+@import url(../blocks/link-subtitle/link-subtitle.css);
+/*__________________________________________________________*/
+@import url(../blocks/fimida/fimida.css);
+/*__________________________________________________________*/
+@import url(../blocks/servises-fimida/servises-fimida.css);
+/*__________________________________________________________*/
+@import url(../blocks/servises-item/servises-item.css);
+/*__________________________________________________________*/
+@import url(../blocks/servises-image/servises-image.css);
+
+/*__________________________________________________________*/
+@import url(../blocks/footer-step/footer-step.css);
+/*__________________________________________________________*/
+@import url(../blocks/author/author.css);
+/*__________________________________________________________*/

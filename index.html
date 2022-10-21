@@ -8,55 +8,86 @@
     <meta name="keywords" content="">
     <meta name="description" content="Сайт - визитка юриста">
     <meta name="author" content="Константин Чукавин">
+    <link rel="stylesheet" href="./page/page.css">
     <title>Сайт - визитка юриста</title>
 </head>
 
 <body class="body">
-    <div class="background">
-        <header class="header">
-            <div class="card">
-                <img src="#" class="image">
-                <div class="lable">
-                    <h1 class="title">Есев Андрей</h1>
-                    <p class="sub-title">Юрист</p>
+    <div class="header-bckg">
+        <div class="overlay">
+            <header class="header">
+                <div class="title-card">
+                    <img src="./vindor/image/separation_L.svg" class="title-image">
+                    <div class="lable">
+                        <h1 class="title">Есев Андрей</h1>
+                        <p class="sub-title">Юрист</p>
+                    </div>
+                    <img src="./vindor/image/separation_r.svg" class="title-image">
                 </div>
-                <img src="#" class="image">
-            </div>
-            <nav class="navigation">
-                <a id="about-us" href="#" class="link">Обомне</a>
-                <a id="services" href="#" class="link">Услуги</a>
-                <a id="contact" href="#" class="link">Контакты</a>
-            </nav>
-            <div class="contacts">
-                <a href="#" class="contact-item"><img src="#" class="image-button">+7(911)362-59-69</a>
-                <a href="#" class="contact-item"><img src="#" class="image-button">eseff@mail.ru</a>
-            </div>
-        </header>
-        <section class="section section__about-us">
-            <div class="description">
-                <img src="#" class="image">
-                <h2 class="title">Обо мне</h2>
-                <p class="sub-title">Помогаю в юридических и риэлторских вопросах. Опыт работы более 25 лет, адекватные
-                    цены
-                    за услуги, предоставляются скидки от 10% за рекомендацию и чеки за оплаченные услуги.</p>
-                <img src="#" class="image">
-            </div>
-            <img src="#" class="image">
-        </section>
+                <nav class="navigation">
+                    <div class="navigation__links">
+                        <a id="about-us" href="#" class="link">Обомне</a>
+                        <a id="services" href="#" class="link">Услуги</a>
+                        <a id="contact" href="#" class="link">Контакты</a>
+                    </div>
+                    <div class="contacts">
+                        <div class="contacts__item">
+                            <img src="./vindor/image/coll.svg" class="image-button">
+                            <div>
+                                <p class="link-subtitle">Позвони мне:</p>
+                                <a href="#" class="link contact-item">+7(911)362-59-69</a>
+                            </div>
+                        </div>
+                        <div class="contacts__item">
+                            <img src="./vindor/image/mail.svg" class="image-button">
+                            <div>
+                                <p class="link-subtitle">Напиши мне:</p>
+                                <a href="#" class="link contact-item">eseff@mail.ru</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <section class="section section__about-us">
+                <div class="description">
+                    <img src="./vindor/image/IMAGE.svg" class="image">
+                    <h2 class="title">Есев Андрей</h2>
+                    <p class="sub-title">Юридические и риэлтерские услуги физических и юридических лиц</p>
+                    <p class="sub-title">Помогаю в юридических и риэлторских вопросах. Опыт работы более 25 лет,
+                        адекватные
+                        цены
+                        за услуги, предоставляются скидки от 10% за рекомендацию и чеки за оплаченные услуги.</p>
+                    <img src="./vindor/image/IMAGE.svg" class="image">
+                </div>
+                <img src="./vindor/image/about_as.jpg" class="image__about-us">
+            </section>
+        </div>
     </div>
     <section class="section section__services">
-        <DIV class="background">
-            <div class="">
-                <img src="#" class="image">
+        <DIV class="section__bckg">
+            <div class="title-card">
+                <img src="./vindor/image/separation_L.svg" class="title-image">
                 <h2 class="title">Мои услуги</h2>
-                <img src="#" class="image">
+                <img src="./vindor/image/separation_r.svg" class="title-image">
             </div>
-            <div class="">
-                <Div class="">
+            <div class="servises-fimida">
+                <Div class="servises-item">
                     <div>
-                        <h3 class="title">Физическим лицам</h3>
+                        <!-- <h3 class="title">Физическим лицам</h3>-->
                         <ul class="list">
-                            <li>Жилищные споры</li>
+                            <li>
+                                <p>Юридические и риэлтерские услуги по вопросам, связанным с наследственными правами, со
+                                    сделками с недвижимостью, проверкой объекта покупки и его продавца на юридическую
+                                    "чистоту" и соответствие требованиям закона, помощь в продаже Вашей недвижимости,
+                                    подготовка и сбор необходимых для совершения сделки документов, в том числе в
+                                    нотариальной форме, получения одобрения по ипотеке. Помощь в проведении необходимой
+                                    строительной экспертизы и/или оценке рыночной стоимости объекта недвижимости.</p>
+                            </li>
+                            <li>
+                                <p>Составление, проверка, правовая экспертиза любых видов гражданско-правовых договоров
+                                    и соглашений. Ответы на досудебные претензии контрагентов и клиентов. </p>
+                            </li>
+                            <!-- <li>Жилищные споры</li>
                             <li>споры по наследству</li>
                             <li>недвижимости</li>
                             <li>услуги нотариуса</li>
@@ -64,23 +95,38 @@
                             <li>оформление документов</li>
                             <li>представительство в суде</li>
                             <li>консультации по гражданскому праву</li>
-                            <li>участие в переговорах</li>
+                            <li>участие в переговорах</li>-->
                         </ul>
                     </div>
-                    <img src="#" class="image">
+                    <img src="./vindor/image/IMAGE_fimida_1.jpg" class="servises-image">
                 </Div>
-                <img src="#" class="image">
-                <Div class="">
-                    <img src="#" class="image">
+                <img src="./vindor/image/fimida.jpg" class="fimida">
+                <Div class="servises-item">
+                    <img src="./vindor/image/IMAGE_fimida_2.jpg" class="servises-image">
                     <div>
-                        <h3 class="title">Юридическим лицам</h3>
+                        <!--   <h3 class="title">Юридическим лицам</h3>-->
                         <ul class="list">
-                            <li>Рабочие договоры</li>
+                            <li>
+                                <p>Письменные и устные консультации по вопросам, связанным с мобилизацией, отсрочкой от
+                                    призыва, защитой прав мобилизованных и их родственников. </p>
+                            </li>
+                            <li>
+                                <p>Представление интересов клиента в кредитных организациях (банках, МФО), в службе
+                                    судебных приставов.</p>
+                            </li>
+                            <li>
+                                <p>Семейные споры, помощь в составлении брачного договора.</p>
+                            </li>
+                            <li>
+                                <p>Судебная защита прав клиента, в том числе в судах апелляционной и кассационной
+                                    инстанций, в Верховном Суде РФ.</p>
+                            </li>
+                            <!--   <li>Рабочие договоры</li>
                             <li>взыскание долгов</li>
                             <li>защита интеллектуального права</li>
                             <li>сопровождение бизнеса</li>
                             <li>регистрация и закрытие бизнеса</li>
-                            <li>регистрация и закрытие ИП</li>
+                            <li>регистрация и закрытие ИП</li>-->
                         </ul>
                     </div>
                 </Div>
@@ -88,47 +134,44 @@
         </DIV>
     </section>
     <footer class="footer">
-        <div class="card">
-            <img src="#" class="image">
-            <div class="lable">
-                <h2 class="title">Есев Андрей</h2>
-                <p class="sub-title">Юрист</p>
-            </div>
-            <img src="#" class="image">
-        </div>
-        <div>
-            <div class="menu">
-                <h3 class="title">ПРОКОНСУЛЬТИРОВАТЬСЯ</h3>
-                <ul>
-                    <li>
-                        <p>Моб. тел:</p>
-                        <a href="#" class="">+7(911)362-59-69</a>
-                        <p> с 9 до 21 (без выходных)</p>
-                    </li>
-                    <li>
-                        <p>Почта:</p>
-                        <a href="#" class="">eseff@mail.ru</a>
-                        <p>(в любое время)</p>
-                    </li>
-                    <li>
-                        <p>Телегам:</p>
-                        <a href="#" class="">t.me/</a>
-                        <p>с 9 до 21 (без выходных)</p>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <div>
-                    <a href="#" class="contact-item"><img src="#" class="image-button"></a>
-                    <a href="#" class="contact-item"><img src="#" class="image-button"></a>
-                    <a href="#" class="contact-item"><img src="#" class="image-button"></a>
+        <div class="overlay">
+            <div class="footer-step">
+                <div class="title-card">
+                    <img src="./vindor/image/separation_L.svg" class="title-image">
+                    <div class="lable">
+                        <h2 class="title">Контакты</h2>
+                    </div>
+                    <img src="./vindor/image/separation_r.svg" class="title-image">
                 </div>
-                <div>
-                    <div class="">
-                        <p class="author">&copy; Чукавин Константин</p>
-                        <a href="#" class="contact-item"><img src="#" class="image-button"></a>
-                        <a href="#" class="contact-item"><img src="#" class="image-button"></a>
-                        <a href="#" class="contact-item"><img src="#" class="image-button"></a>
+                <div class="footer__menu">
+                    <div class="menu">
+                        <h3 class="title">ПРОКОНСУЛЬТИРОВАТЬСЯ</h3>
+                        <ul>
+                            <li class="footer__menu-item">
+                                <p>Моб. тел:</p>
+                                <a href="#" class="link">+7(911)362-59-69</a>
+                                <p> с 9 до 21 (без выходных)</p>
+                            </li>
+                            <li class="footer__menu-item">
+                                <p>Почта:</p>
+                                <a href="#" class="link">eseff@mail.ru</a>
+                                <p>(в любое время)</p>
+                            </li>
+                            <li class="footer__menu-item">
+                                <p>Телегам:</p>
+                                <a href="#" class="link">t.me/</a>
+                                <p>с 9 до 21 (без выходных)</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="author">
+                                <p class="author__name">&copy; Чукавин Константин</p>
+                                <a href="#" class="contact-item"><img src="./vindor/image/Vector.svg"
+                                        class="image-button"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
