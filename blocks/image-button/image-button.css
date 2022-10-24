@@ -1,0 +1,8 @@
+.image-button {
+    height: 62px;
+    width: 62px;
+    margin: 35px 12px;
+    stroke: rgba(209, 176, 107, 1);
+    stroke-width: 0.6px;
+    fill: none;
+}

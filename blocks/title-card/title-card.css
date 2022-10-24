@@ -1,5 +1,5 @@
 .title-card {
-    height: 164px;
+    padding: 40px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

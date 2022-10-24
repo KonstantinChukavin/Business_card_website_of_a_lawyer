@@ -1,4 +1,6 @@
 .servises-image {
-    width: 270px;
-    height: 233px;
+    width: 230px;
+    height: 230px;
+    border: 1px solid rgba(209, 176, 107, 1);
+    border-radius: 50%;
 }

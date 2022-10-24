@@ -1,0 +1,9 @@
+.title-card__title {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    line-height: 54px;
+}

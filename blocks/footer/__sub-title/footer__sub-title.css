@@ -1,0 +1,9 @@
+.footer__sub-title {
+    margin-right: 20px;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    min-width: 200px;
+    color: #D7D7D7;
+}
