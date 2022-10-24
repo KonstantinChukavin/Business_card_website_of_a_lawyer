@@ -1,3 +1,6 @@
 .link-subtitle {
+    margin: 0;
     color: rgba(209, 176, 107, 1);
+    font-size: 18px;
+    line-height: 29px;
 }
