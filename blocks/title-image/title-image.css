@@ -2,3 +2,10 @@
     width: 400px;
     height: 60px;
 }
+
+@media screen and (max-width: 1030px) {
+    .title-image {
+        width: 200px;
+        height: 30px;
+    }
+}

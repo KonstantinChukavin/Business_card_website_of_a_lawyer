@@ -11,3 +11,11 @@
     transition-duration: .3s;
     color: rgba(209, 176, 107, 1);
 }
+
+@media screen and (max-width: 1160px) {
+    .link {
+        font-size: 20px;
+        line-height: 32px;
+        margin-right: 20px;
+    }
+}
