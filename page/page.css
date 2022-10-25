@@ -28,17 +28,12 @@
 @import url(../blocks/section/__services/section__services.css);
 @import url(../blocks/section/__bckg/section__bckg.css);
 @import url(../blocks/section/__sub-title/section__sub-title.css);
+@import url(../blocks/section/__sub-title/_color/section__sub-title_color.css);
 /*__________________________________________________________*/
 @import url(../blocks/image/image.css);
 @import url(../blocks/image/__about-us/image__about-us.css);
 /*__________________________________________________________*/
 @import url(../blocks/description/description.css);
-/*__________________________________________________________*/
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__menu/footer__menu.css);
-@import url(../blocks/footer/__menu-item/footer__menu-item.css);
-@import url(../blocks/footer/__title/footer__title.css);
-@import url(../blocks/footer/__sub-title/footer__sub-title.css);
 /*__________________________________________________________*/
 @import url(../blocks/link/link.css);
 /*__________________________________________________________*/
@@ -55,6 +50,7 @@
 @import url(../blocks/servises-fimida/servises-fimida.css);
 /*__________________________________________________________*/
 @import url(../blocks/servises-item/servises-item.css);
+@import url(../blocks/servises-item/__item/servises-item__item.css);
 /*__________________________________________________________*/
 @import url(../blocks/servises-image/servises-image.css);
 @import url(../blocks/servises-image/__left/servises-image__left.css);
@@ -68,6 +64,18 @@
 /*__________________________________________________________*/
 @import url(../blocks/menu/menu.css);
 /*__________________________________________________________*/
+/*__________________________________________________________*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__menu-item/footer__menu-item.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__sub-title/footer__sub-title.css);
+@import url(../blocks/footer/__sub-title/_disable/footer__sub-title_disable.css);
 @import url(../blocks/author/author.css);
 @import url(../blocks/author/__image-button/author__image-button.css);
+@import url(../blocks/author/__name/author__name.css);
+/*__________________________________________________________*/
+@import url(../blocks/anable/anable.css);
+/*__________________________________________________________*/
+@import url(../blocks/disable/disable.css);
 /*__________________________________________________________*/

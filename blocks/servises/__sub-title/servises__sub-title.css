@@ -5,3 +5,10 @@
     letter-spacing: 0.4px;
     color: #D7D7D7;
 }
+
+@media screen and (max-width: 1030px) {
+    .servises__sub-title {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

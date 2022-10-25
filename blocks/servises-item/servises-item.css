@@ -1,8 +1,26 @@
 .servises-item {
     max-width: 400px;
+    min-width: 300px;
     padding: 70px 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+    .servises-item {
+        padding: 10px 10px 10px 0px;
+        min-width: 200px;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .servises-item {
+        margin: 0;
+        padding: 0;
+        min-width: none;
+        max-width: none;
+    }
 }
