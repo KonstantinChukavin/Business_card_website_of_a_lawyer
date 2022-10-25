@@ -1,3 +1,4 @@
 .navigation__link {
     text-transform: lowercase;
+    margin-right: 0;
 }
