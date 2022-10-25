@@ -1,0 +1,6 @@
+@media screen and (max-width: 600px) {
+    .servises-item__item {
+        margin: 0;
+        padding-bottom: 0;
+    }
+}

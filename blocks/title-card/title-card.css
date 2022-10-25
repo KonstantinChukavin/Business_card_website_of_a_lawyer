@@ -7,3 +7,10 @@
     text-align: center;
     border-bottom: 1px solid rgba(78, 85, 95, 1);
 }
+
+@media screen and (max-width: 800px) {
+    .title-card {
+        padding: 20px 0;
+        justify-content: center;
+    }
+}

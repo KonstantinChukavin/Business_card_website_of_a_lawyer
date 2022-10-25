@@ -10,12 +10,13 @@
 @media screen and (max-width: 1160px) {
     .image__about-us {
         margin: 20px 30px;
+        width: 200px;
+        height: 200px;
     }
 }
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 600px) {
     .image__about-us {
-        width: 200px;
-        height: 200px;
+        display: none;
     }
 }

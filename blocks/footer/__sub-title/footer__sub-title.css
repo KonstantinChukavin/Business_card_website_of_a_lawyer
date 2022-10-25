@@ -4,6 +4,14 @@
     line-height: 32px;
     letter-spacing: 0.4px;
     text-transform: capitalize;
-    min-width: 200px;
     color: #D7D7D7;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 1030px) {
+    .footer__sub-title {
+        font-size: 14px;
+        line-height: 22px;
+        margin-right: 10px;
+    }
 }

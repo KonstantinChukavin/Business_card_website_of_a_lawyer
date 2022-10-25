@@ -5,10 +5,16 @@
     border-radius: 50%;
 }
 
-/*
+
 @media screen and (max-width: 1030px) {
     .servises-image {
         width: 115px;
         height: 115px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .servises-image {
+        display: none;
     }
 }

@@ -9,3 +9,16 @@
         height: 30px;
     }
 }
+
+@media screen and (max-width: 800px) {
+    .title-image {
+        width: 100px;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title-image {
+        display: none;
+    }
+}
